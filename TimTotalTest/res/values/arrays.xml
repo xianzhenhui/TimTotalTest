@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender_name_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    
+    <string-array name="gender_value_list">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    <string-array name="item_name_list">
+        <item>Tim原创</item> 
+        <item>用户设置</item>
+    </string-array>
+    
+</resources>

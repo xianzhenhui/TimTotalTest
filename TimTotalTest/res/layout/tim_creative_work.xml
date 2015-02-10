@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestTemp" >
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/phoneinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phoneinfo" />
+
+            <Button
+                android:id="@+id/customedittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/customedittext" />
+
+            <Button
+                android:id="@+id/viewstubdemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewstubdemo" />
+
+        </TableRow>
+    </TableLayout>
+    
+    <TableLayout
+        android:id="@+id/TableLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/listviewdemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/listviewdemo" />
+            
+            <Button
+                android:id="@+id/viewswitcherdemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewswitcherdemo" />
+            
+        </TableRow>
+    </TableLayout>
+    
+    <TableLayout
+        android:id="@+id/TableLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+             <Button
+                android:id="@+id/launcherpackagename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/launcherpackagename" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

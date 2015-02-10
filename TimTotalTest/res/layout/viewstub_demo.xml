@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/showtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewstubdemo_introduce" 
+            android:textSize="@dimen/edit_font_size_small"/>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/viewstub_expand" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_font_size_small" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ViewStub
+            android:id="@+id/mystub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout="@layout/viewstub_content" >
+        </ViewStub>
+    </ScrollView>
+
+</LinearLayout>

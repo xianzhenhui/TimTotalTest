@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/showtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction"
+        android:textSize="@dimen/edit_font_size_mid" />
+
+    <Button
+        android:id="@+id/custom_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showtext"
+        android:text="自定义对话框" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/custom_dialog"
+        android:background="@drawable/custom_edittext_layout_shape"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="left|top"
+            android:hint="@string/editext01"
+            android:paddingLeft="@dimen/text_padding_left"
+            android:textColor="@drawable/custom_edittext_color"
+            android:textSize="@dimen/edit_font_size" />
+
+        <EditText
+            android:id="@+id/edit02"
+            style="@style/text_20dp_hotpink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="@string/editext02"
+            android:maxLines="2"
+            android:paddingRight="@dimen/text_padding_right"
+            android:textCursorDrawable="@null" />
+        <!-- 鼠标颜色跟随字体颜色 -->
+    </LinearLayout>
+
+</RelativeLayout>

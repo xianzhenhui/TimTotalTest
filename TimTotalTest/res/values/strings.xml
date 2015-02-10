@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TimTotalTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="phoneinfo">手机状态</string>
+    <string name="customedittext">定制编辑框</string>
+    <string name="viewstubdemo">默认不可见视图</string>
+    <string name="viewswitcherdemo">viewswitcher测试</string>
+    <string name="launcherpackagename">获取launcher包名</string>
+    <string name="listviewdemo">listview测试</string>
+    <string name="viewstubdemo_introduce">抽象布局标签(include, viewstub, merge)的使用实例。\n自身文字样式效果采用不同字体.ttf进行设置显示。</string>
+    <string name="viewstub_introduce">ViewStub只能Inflate一次，之后ViewStub对象会被置为空,也就是ViewStub指定的布局被Inflate后，就不能再通过ViewStub来控制它了。</string>
+    <string name="viewstub_expand">展开视图</string>
+    <string name="editext01">正文</string>
+    <string name="editext02">签名</string>
+    <string name="instruction">两个编辑框looklike一个编辑框的效果:</string>
+    <string name="TODO">备用</string>
+    <string name="viewswitcher_btn">按键</string>
+    <string name="viewswitcher_layout">这是线性子布局</string>
+
+</resources>
